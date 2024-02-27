@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.itsinfo</groupId>
-    <artifactId>TaskJDBC</artifactId>
+    <groupId>com.ananasovitch</groupId>
+    <artifactId>JDBCKata</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -27,8 +27,7 @@
     </build>
 
     <dependencies>
-<!--         Ваши зависимости-->
-         <!-- https://mvnrepository.com/artifact/junit/junit -->
+
          <dependency>
              <groupId>junit</groupId>
              <artifactId>junit</artifactId>
@@ -36,8 +35,7 @@
              <scope>test</scope>
          </dependency>
 
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-        <dependency>
+         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.23</version>

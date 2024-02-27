@@ -21,7 +21,7 @@ public class UserDaoJDBCImpl implements UserDao {
             statement.executeUpdate("CREATE TABLE IF NOT EXISTS users " +
                     "(id BIGINT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(255), last_name VARCHAR(255), age INT)");
         } catch (SQLException e) {
-            e.printStackTrace();
+           System.err.println("Не удалось загрузить класс драйвера");
         }
     }
 
